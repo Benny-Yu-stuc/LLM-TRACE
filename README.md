@@ -1,4 +1,3 @@
-[Uploading README.md…]()
 # LLM-TRACE
 
 LLM-TRACE is a traceable, rule-aware, and process-chain-enhanced cross-modal extraction framework for industrial process documents. The project implements the full pipeline for parsing process cards, generating Chief-Engineer routing priors, encoding table/image/symbol evidence, PMCA fusion, MNER/MRE extraction, TM-CGB graph modeling, and traceable structured output.
