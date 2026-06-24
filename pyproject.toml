@@ -1,0 +1,10 @@
+[project]
+name = "llm-trace"
+version = "0.1.0"
+description = "Traceable rule-aware cross-modal extraction scaffold for industrial process documents"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

@@ -1,0 +1,2 @@
+# Runtime dependencies are intentionally empty.
+# Optional: install openpyxl if you want direct .xlsx cell parsing.
