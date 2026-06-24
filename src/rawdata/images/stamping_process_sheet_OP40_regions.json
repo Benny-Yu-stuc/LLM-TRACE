@@ -1,0 +1,59 @@
+{
+  "regions": [
+    {
+      "document_id": "stamping_process_sheet_OP40",
+      "op_id": "OP40",
+      "image_file": "rawdata/images/stamping_process_sheet_OP40.png",
+      "region_id": "img_op40_process_sketch",
+      "region_type": "process_sketch",
+      "text": "Process sketch of OP40 stamping part with flanging, calibration, stamping mark and quick locating annotations.",
+      "bbox": [620, 84, 1223, 746],
+      "page_index": 0,
+      "confidence": 1.0
+    },
+    {
+      "document_id": "stamping_process_sheet_OP40",
+      "op_id": "OP40",
+      "image_file": "rawdata/images/stamping_process_sheet_OP40.png",
+      "region_id": "img_op40_upper_flanging_top",
+      "region_type": "engineering_annotation",
+      "text": "Upper Flanging annotation points to the top flange area.",
+      "bbox": [842, 94, 941, 143],
+      "page_index": 0,
+      "confidence": 0.98
+    },
+    {
+      "document_id": "stamping_process_sheet_OP40",
+      "op_id": "OP40",
+      "image_file": "rawdata/images/stamping_process_sheet_OP40.png",
+      "region_id": "img_op40_lower_calibration_left",
+      "region_type": "engineering_annotation",
+      "text": "Lower Calibration Restrike annotation points to the left calibration area.",
+      "bbox": [709, 113, 811, 175],
+      "page_index": 0,
+      "confidence": 0.98
+    },
+    {
+      "document_id": "stamping_process_sheet_OP40",
+      "op_id": "OP40",
+      "image_file": "rawdata/images/stamping_process_sheet_OP40.png",
+      "region_id": "img_op40_stamping_mark",
+      "region_type": "quality_mark_annotation",
+      "text": "Stamping Mark Imprint Mark annotation indicates a quality traceability mark.",
+      "bbox": [1109, 322, 1196, 378],
+      "page_index": 0,
+      "confidence": 0.97
+    },
+    {
+      "document_id": "stamping_process_sheet_OP40",
+      "op_id": "OP40",
+      "image_file": "rawdata/images/stamping_process_sheet_OP40.png",
+      "region_id": "img_op40_quick_locating",
+      "region_type": "quick_locating_map",
+      "text": "Quick locating map with red cross locating reference.",
+      "bbox": [641, 510, 904, 745],
+      "page_index": 0,
+      "confidence": 0.96
+    }
+  ]
+}

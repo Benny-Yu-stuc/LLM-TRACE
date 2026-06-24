@@ -1,0 +1,59 @@
+{
+  "symbols": [
+    {
+      "document_id": "stamping_process_sheet_OP40",
+      "op_id": "OP40",
+      "image_file": "rawdata/images/stamping_process_sheet_OP40.png",
+      "symbol_id": "sym_op40_sc_remark",
+      "symbol_type": "SC",
+      "category": "SC",
+      "text": "SC",
+      "bbox": [489, 133, 512, 147],
+      "confidence": 1.0
+    },
+    {
+      "document_id": "stamping_process_sheet_OP40",
+      "op_id": "OP40",
+      "image_file": "rawdata/images/stamping_process_sheet_OP40.png",
+      "symbol_id": "sym_op40_arrow_upper_flanging",
+      "symbol_type": "arrow",
+      "category": "arrow",
+      "text": "Arrow linking Upper Flanging label to process sketch.",
+      "bbox": [866, 146, 908, 166],
+      "confidence": 0.96
+    },
+    {
+      "document_id": "stamping_process_sheet_OP40",
+      "op_id": "OP40",
+      "image_file": "rawdata/images/stamping_process_sheet_OP40.png",
+      "symbol_id": "sym_op40_arrow_stamping_mark",
+      "symbol_type": "arrow",
+      "category": "arrow",
+      "text": "Arrow linking Stamping Mark label to imprint position.",
+      "bbox": [987, 311, 1112, 351],
+      "confidence": 0.95
+    },
+    {
+      "document_id": "stamping_process_sheet_OP40",
+      "op_id": "OP40",
+      "image_file": "rawdata/images/stamping_process_sheet_OP40.png",
+      "symbol_id": "sym_op40_quick_locating_cross",
+      "symbol_type": "quick_locating",
+      "category": "quick_locating",
+      "text": "Quick Locating red cross.",
+      "bbox": [692, 727, 713, 743],
+      "confidence": 0.97
+    },
+    {
+      "document_id": "stamping_process_sheet_OP40",
+      "op_id": "OP40",
+      "image_file": "rawdata/images/stamping_process_sheet_OP40.png",
+      "symbol_id": "sym_op40_feed_direction",
+      "symbol_type": "direction_arrow",
+      "category": "direction_arrow",
+      "text": "Feed direction arrow.",
+      "bbox": [1179, 615, 1208, 706],
+      "confidence": 0.96
+    }
+  ]
+}

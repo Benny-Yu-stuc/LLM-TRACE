@@ -1,0 +1,41 @@
+# Core deep learning stack
+torch>=2.2.0
+torchvision>=0.17.0
+torchaudio>=2.2.0
+transformers>=4.40.0
+tokenizers>=0.19.0
+accelerate>=0.29.0
+safetensors>=0.4.2
+
+# BERT / ViT / vision preprocessing
+timm>=0.9.16
+pillow>=10.2.0
+opencv-python>=4.9.0.80
+numpy>=1.26.0
+scipy>=1.12.0
+scikit-learn>=1.4.0
+seqeval>=1.2.2
+datasets>=2.18.0
+einops>=0.7.0
+
+# Graph and structured learning
+networkx>=3.2.1
+torch-geometric>=2.5.0
+
+# Document parsing and OCR interfaces
+openpyxl>=3.1.2
+pandas>=2.2.0
+pymupdf>=1.24.0
+pytesseract>=0.3.10
+
+# API, schema, experiment utilities
+requests>=2.31.0
+pydantic>=2.6.0
+tqdm>=4.66.0
+pyyaml>=6.0.1
+tensorboard>=2.16.0
+matplotlib>=3.8.0
+
+# Development and validation
+pytest>=8.0.0
+ruff>=0.3.0

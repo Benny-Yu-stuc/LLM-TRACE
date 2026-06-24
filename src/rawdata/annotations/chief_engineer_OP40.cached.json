@@ -1,0 +1,139 @@
+{
+  "document_id": "stamping_process_sheet_OP40",
+  "op_id": "OP40",
+  "modality_prior": {
+    "pi_table": 0.46,
+    "pi_drawing": 0.31,
+    "pi_symbol": 0.23
+  },
+  "routing_guidance": {
+    "table_focus": [
+      {
+        "field_name": "operation",
+        "cell_id": "F1",
+        "evidence_id": "ev_de94b5d2f5ef",
+        "reason": "Operation identity anchors all OP40 extraction results.",
+        "priority": 1.0
+      },
+      {
+        "field_name": "part_name",
+        "cell_id": "D2",
+        "evidence_id": "ev_7bbeb4d36934",
+        "reason": "Part name defines the product object for process knowledge.",
+        "priority": 0.96
+      },
+      {
+        "field_name": "process_parameter_calibration_force",
+        "cell_id": "B9",
+        "evidence_id": "ev_615ff56fdfb0",
+        "reason": "Calibration force is a key process parameter constrained by kN unit rules.",
+        "priority": 0.94
+      },
+      {
+        "field_name": "quality_standard_remark",
+        "cell_id": "C12",
+        "evidence_id": "ev_8f1e80f383da",
+        "reason": "Quality remarks provide approval and burr-limit constraints.",
+        "priority": 0.9
+      },
+      {
+        "field_name": "equipment_press",
+        "cell_id": "B15",
+        "evidence_id": "ev_ff06eb428e1e",
+        "reason": "Press equipment supports equipment-parameter relation extraction.",
+        "priority": 0.88
+      },
+      {
+        "field_name": "tooling_die",
+        "cell_id": "B16",
+        "evidence_id": "ev_27fadbbd4e8a",
+        "reason": "Die tooling supports tooling-operation relation extraction.",
+        "priority": 0.86
+      }
+    ],
+    "drawing_focus": [
+      {
+        "region_id": "img_op40_process_sketch",
+        "evidence_id": "ev_572ee280ca5b",
+        "reason": "Process sketch provides geometry context for flanging and calibration regions.",
+        "priority": 0.94
+      },
+      {
+        "region_id": "img_op40_stamping_mark",
+        "evidence_id": "ev_3c1adb98a718",
+        "reason": "Stamping mark region supports quality traceability extraction.",
+        "priority": 0.9
+      },
+      {
+        "region_id": "img_op40_quick_locating",
+        "evidence_id": "ev_f39ebe84ab66",
+        "reason": "Quick locating map supports locating-support evidence alignment.",
+        "priority": 0.86
+      }
+    ],
+    "symbol_focus": [
+      {
+        "symbol_id": "sym_op40_sc_remark",
+        "evidence_id": "ev_67df837433f3",
+        "reason": "SC symbol indicates special quality-control evidence.",
+        "priority": 0.96
+      },
+      {
+        "symbol_id": "sym_op40_arrow_stamping_mark",
+        "evidence_id": "ev_f1e101e662e1",
+        "reason": "Arrow links quality mark label and physical position.",
+        "priority": 0.88
+      },
+      {
+        "symbol_id": "sym_op40_quick_locating_cross",
+        "evidence_id": "ev_fe80d119ada3",
+        "reason": "Quick locating cross anchors locating evidence.",
+        "priority": 0.86
+      },
+      {
+        "symbol_id": "sym_op40_feed_direction",
+        "evidence_id": "ev_6025d8c4fa0b",
+        "reason": "Feed direction arrow provides process orientation.",
+        "priority": 0.8
+      }
+    ]
+  },
+  "candidate_constraints": [
+    {
+      "constraint_type": "unit",
+      "description": "Die setting height and production height must use mm as the unit.",
+      "related_evidence": [
+        "ev_1d87b9b4da06"
+      ]
+    },
+    {
+      "constraint_type": "unit",
+      "description": "Calibration force must use kN as the unit and must be checked after first-article approval.",
+      "related_evidence": [
+        "ev_4b1b2844d16a"
+      ]
+    },
+    {
+      "constraint_type": "quality_standard",
+      "description": "Side piercing clearance is adjusted according to sheet thickness and burr quality.",
+      "related_evidence": [
+        "ev_6d694957c670"
+      ]
+    },
+    {
+      "constraint_type": "evidence",
+      "description": "SC, stamping mark, calibration mark, and quick locating symbols must be linked to image or symbol evidence.",
+      "related_evidence": [
+        "ev_05c16b796bcb"
+      ]
+    },
+    {
+      "constraint_type": "sequence",
+      "description": "OP40 extraction must preserve operation identity, station address, equipment, tooling, parameters, and sketch annotations in the same document partition.",
+      "related_evidence": [
+        "ev_75d3e009da80"
+      ]
+    }
+  ],
+  "uncertain_items": []
+}

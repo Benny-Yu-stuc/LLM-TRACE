@@ -1,0 +1,10 @@
+SC
+CC
+QC
+arrow
+quick_locating
+direction_arrow
+calibration_mark
+stamping_mark
+upper_flanging
+lower_calibration

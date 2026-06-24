@@ -1,0 +1,34 @@
+{
+  "clauses": [
+    {
+      "document_id": "stamping_process_sheet_OP40",
+      "op_id": "GLOBAL",
+      "rule_type": "unit",
+      "text": "Die setting height and production height must use mm as the unit."
+    },
+    {
+      "document_id": "stamping_process_sheet_OP40",
+      "op_id": "GLOBAL",
+      "rule_type": "unit",
+      "text": "Calibration force must use kN as the unit and must be checked after first-article approval."
+    },
+    {
+      "document_id": "stamping_process_sheet_OP40",
+      "op_id": "GLOBAL",
+      "rule_type": "quality_standard",
+      "text": "Side piercing clearance is adjusted according to sheet thickness and burr quality."
+    },
+    {
+      "document_id": "stamping_process_sheet_OP40",
+      "op_id": "GLOBAL",
+      "rule_type": "evidence",
+      "text": "SC, stamping mark, calibration mark, and quick locating symbols must be linked to image or symbol evidence."
+    },
+    {
+      "document_id": "stamping_process_sheet_OP40",
+      "op_id": "GLOBAL",
+      "rule_type": "sequence",
+      "text": "OP40 extraction must preserve operation identity, station address, equipment, tooling, parameters, and sketch annotations in the same document partition."
+    }
+  ]
+}

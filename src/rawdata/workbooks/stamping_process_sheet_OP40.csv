@@ -1,0 +1,31 @@
+document_id,op_id,sheet_name,cell,field_name,value,unit,confidence
+stamping_process_sheet_OP40,OP40,OP40,A1,vehicle_model,***,,1.0
+stamping_process_sheet_OP40,OP40,OP40,D1,part_code,630****-RL01,,1.0
+stamping_process_sheet_OP40,OP40,OP40,D2,part_name,背门内板,,1.0
+stamping_process_sheet_OP40,OP40,OP40,F1,operation,OP40,,1.0
+stamping_process_sheet_OP40,OP40,OP40,G1,station_address,100****SAI040,,1.0
+stamping_process_sheet_OP40,OP40,OP40,I1,document_no,RL00******45,,1.0
+stamping_process_sheet_OP40,OP40,OP40,B5,process_parameter_die_setting_height,11***1,mm,1.0
+stamping_process_sheet_OP40,OP40,OP40,B6,process_parameter_production_height,12***0.2,mm,1.0
+stamping_process_sheet_OP40,OP40,OP40,B7,process_parameter_upper_die_weight,***,t,1.0
+stamping_process_sheet_OP40,OP40,OP40,B8,process_parameter_flanging_angle,9* ± 1,degree,1.0
+stamping_process_sheet_OP40,OP40,OP40,C8,process_parameter_remark,Determined by Flanging Gauge/Fixture,,1.0
+stamping_process_sheet_OP40,OP40,OP40,B9,process_parameter_calibration_force,2** ± 30,kN,1.0
+stamping_process_sheet_OP40,OP40,OP40,C9,quality_standard_remark,Lock After First-Article Approval,,1.0
+stamping_process_sheet_OP40,OP40,OP40,B10,process_parameter_side_piercing_clearance,*%t,%t,1.0
+stamping_process_sheet_OP40,OP40,OP40,C10,quality_standard_remark,t is Sheet Thickness; Fine-tune if Burr Exceeds Limit,,1.0
+stamping_process_sheet_OP40,OP40,OP40,B11,process_parameter_stroke_rate,* ± 2,spm,1.0
+stamping_process_sheet_OP40,OP40,OP40,C11,quality_standard_remark,Mass-production Upper Limit Shall Not Exceed **,,1.0
+stamping_process_sheet_OP40,OP40,OP40,B12,process_parameter_lubricant_dosage,* ± 3 g per time,g,1.0
+stamping_process_sheet_OP40,OP40,OP40,C12,quality_standard_remark,Focus on Covering the Flanging Radii and Calibration Contact Areas,,1.0
+stamping_process_sheet_OP40,OP40,OP40,B15,equipment_press,ES*-****N/11,unit,1.0
+stamping_process_sheet_OP40,OP40,OP40,B16,tooling_die,**-630****-RL01-4/5,set,1.0
+stamping_process_sheet_OP40,OP40,OP40,B17,tooling_infeed_finger_gripper,**-背门外蒙皮上段-#,,1.0
+stamping_process_sheet_OP40,OP40,OP40,B18,tooling_outfeed_finger_gripper,**-背门外蒙皮上段-#,,1.0
+stamping_process_sheet_OP40,OP40,OP40,B19,tooling_side_piercing_punch_assembly,**-63****侧冲孔冲头,set,1.0
+stamping_process_sheet_OP40,OP40,OP40,B22,locating_support_upper_die_clamps,"3R, 4R, 5R, 6R; 3F, 4F, 5F, 6F",,1.0
+stamping_process_sheet_OP40,OP40,OP40,A24,quantity_upper_die_clamps,8,,1.0
+stamping_process_sheet_OP40,OP40,OP40,D24,quantity_quick_locators,2,,1.0
+stamping_process_sheet_OP40,OP40,OP40,B29,blank_inspection_angle_start,"1#=60;2#=60;3#=60;4#=60",degree,1.0
+stamping_process_sheet_OP40,OP40,OP40,B30,blank_inspection_angle_end,"1#=90;2#=90;3#=90;4#=90",degree,1.0
+stamping_process_sheet_OP40,OP40,OP40,B34,automation_air_supply_usage_status,"L1A ON; L1B OFF; L2A ON; L2B OFF; R1A ON; R1B OFF; R2A ON; R2B OFF",,1.0
