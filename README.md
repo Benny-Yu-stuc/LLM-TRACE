@@ -59,7 +59,7 @@ src/
 
 ## Quick Start
 
-From the `src` folder:
+From repository root:
 
 ```bash
 python -m llm_trace.main --demo
