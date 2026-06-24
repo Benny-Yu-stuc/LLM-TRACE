@@ -1,0 +1,123 @@
+{
+  "project_name": "LLM-TRACE",
+  "data": {
+    "raw_workbook_dir": "data/raw/workbooks",
+    "raw_image_dir": "data/raw/images",
+    "raw_symbol_dir": "data/raw/symbols",
+    "raw_manual_dir": "data/raw/manuals",
+    "processed_dir": "data/processed",
+    "output_dir": "data/outputs"
+  },
+  "chief_engineer": {
+    "api_key": "",
+    "api_url": "",
+    "model": "Qwen2.5-VL",
+    "temperature": 0.1,
+    "top_p": 0.9,
+    "max_tokens": 4096,
+    "cache_enabled": true,
+    "cache_dir": "data/processed/chief_engineer_cache"
+  },
+  "fusion": {
+    "vector_dim": 768,
+    "hidden_dim": 768,
+    "attention_heads": 8,
+    "dropout": 0.1,
+    "routing_bias": 0.15,
+    "minimum_prior": 0.05,
+    "strict_model_loading": false,
+    "process_expert": {
+      "backend": "bert",
+      "bert_model_name_or_path": "",
+      "tokenizer_name_or_path": "",
+      "max_length": 512,
+      "pooling": "cls"
+    },
+    "geometry_expert": {
+      "backend": "vit",
+      "vit_model_name_or_path": "",
+      "image_processor_name_or_path": "",
+      "image_size": 224,
+      "pooling": "cls"
+    },
+    "symbol_expert": {
+      "backend": "structured_symbol_encoder",
+      "symbol_vocab_path": "",
+      "bbox_dim": 4,
+      "category_embedding_dim": 128,
+      "position_embedding_dim": 128,
+      "confidence_embedding_dim": 32
+    }
+  },
+  "extraction": {
+    "decoder_backend": "biaffine_token_classifier",
+    "hidden_dim": 768,
+    "entity_label_schema": [
+      "O",
+      "B-OPERATION",
+      "I-OPERATION",
+      "B-EQUIPMENT",
+      "I-EQUIPMENT",
+      "B-TOOLING",
+      "I-TOOLING",
+      "B-PROCESS_PARAMETER",
+      "I-PROCESS_PARAMETER",
+      "B-QUALITY_INDICATOR",
+      "I-QUALITY_INDICATOR",
+      "B-DEFECT",
+      "I-DEFECT",
+      "B-CAUSE",
+      "I-CAUSE",
+      "B-MATERIAL",
+      "I-MATERIAL",
+      "B-PRODUCT_PART",
+      "I-PRODUCT_PART",
+      "B-QUALITY_STANDARD",
+      "I-QUALITY_STANDARD",
+      "B-PERSONNEL",
+      "I-PERSONNEL"
+    ],
+    "relation_label_schema": [
+      "no_relation",
+      "equipment_parameter",
+      "parameter_quality",
+      "defect_cause",
+      "operation_sequence",
+      "material_product",
+      "quality_standard_constraint",
+      "personnel_operation",
+      "operation_owns_entity"
+    ],
+    "entity_confidence_threshold": 0.35,
+    "relation_confidence_threshold": 0.35
+  },
+  "graph": {
+    "preserve_core_evidence": true,
+    "graph_encoder_backend": "relation_aware_gnn",
+    "graph_hidden_dim": 768,
+    "graph_layers": 2,
+    "edge_types": [
+      "operation_sequence",
+      "operation_has_evidence",
+      "operation_owns_entity",
+      "evidence_supports_entity",
+      "candidate_relation",
+      "rule_constrains_evidence"
+    ],
+    "temperature": 0.1,
+    "contrastive_loss_weight": 0.001,
+    "graph_consistency_loss_weight": 0.001
+  },
+  "training": {
+    "optimizer": "AdamW",
+    "learning_rate": 0.00002,
+    "batch_size": 8,
+    "max_epochs": 30,
+    "early_stopping_patience": 5,
+    "temperature": 0.1,
+    "entity_loss_weight": 1.0,
+    "relation_loss_weight": 1.0,
+    "contrastive_loss_weight": 0.001,
+    "graph_consistency_loss_weight": 0.001
+  }
+}

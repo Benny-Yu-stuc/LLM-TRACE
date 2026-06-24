@@ -1,0 +1,67 @@
+{
+  "regions": [
+    {
+      "document_id": "RL00******45",
+      "op_id": "OP40",
+      "image_file": "door_inner_panel_op40.png",
+      "region_type": "process_sketch",
+      "text": "Process Sketch for OP40 door inner panel",
+      "bbox": [],
+      "confidence": 1.0
+    },
+    {
+      "document_id": "RL00******45",
+      "op_id": "OP40",
+      "image_file": "door_inner_panel_op40.png",
+      "region_type": "upper_flanging",
+      "text": "Upper Flanging",
+      "bbox": [],
+      "confidence": 1.0
+    },
+    {
+      "document_id": "RL00******45",
+      "op_id": "OP40",
+      "image_file": "door_inner_panel_op40.png",
+      "region_type": "lower_calibration_restrike",
+      "text": "Lower Calibration (Restrike)",
+      "bbox": [],
+      "confidence": 1.0
+    },
+    {
+      "document_id": "RL00******45",
+      "op_id": "OP40",
+      "image_file": "door_inner_panel_op40.png",
+      "region_type": "calibration_bottom_out_mark",
+      "text": "Calibration Bottom-out Mark",
+      "bbox": [],
+      "confidence": 1.0
+    },
+    {
+      "document_id": "RL00******45",
+      "op_id": "OP40",
+      "image_file": "door_inner_panel_op40.png",
+      "region_type": "stamping_mark_imprint_mark",
+      "text": "Stamping Mark (Imprint Mark)",
+      "bbox": [],
+      "confidence": 1.0
+    },
+    {
+      "document_id": "RL00******45",
+      "op_id": "OP40",
+      "image_file": "door_inner_panel_op40.png",
+      "region_type": "quick_locating",
+      "text": "Quick Locating",
+      "bbox": [],
+      "confidence": 1.0
+    },
+    {
+      "document_id": "RL00******45",
+      "op_id": "OP40",
+      "image_file": "door_inner_panel_op40.png",
+      "region_type": "feed_direction",
+      "text": "Feed Direction",
+      "bbox": [],
+      "confidence": 1.0
+    }
+  ]
+}

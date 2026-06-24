@@ -1,0 +1,39 @@
+{
+  "clauses": [
+    {
+      "document_id": "RL00******45",
+      "op_id": "OP40",
+      "rule_type": "process_remark",
+      "text": "Determined by Flanging Gauge/Fixture",
+      "confidence": 1.0
+    },
+    {
+      "document_id": "RL00******45",
+      "op_id": "OP40",
+      "rule_type": "process_remark",
+      "text": "Lock After First-Article Approval",
+      "confidence": 1.0
+    },
+    {
+      "document_id": "RL00******45",
+      "op_id": "OP40",
+      "rule_type": "process_remark",
+      "text": "t is Sheet Thickness; Fine-tune if Burr Exceeds Limit",
+      "confidence": 1.0
+    },
+    {
+      "document_id": "RL00******45",
+      "op_id": "OP40",
+      "rule_type": "process_limit",
+      "text": "Mass-production Upper Limit Shall Not Exceed",
+      "confidence": 1.0
+    },
+    {
+      "document_id": "RL00******45",
+      "op_id": "OP40",
+      "rule_type": "lubrication_requirement",
+      "text": "Focus on Covering the Flanging Radii and Calibration Contact Areas",
+      "confidence": 1.0
+    }
+  ]
+}
