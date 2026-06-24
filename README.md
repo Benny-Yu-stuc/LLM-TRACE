@@ -10,7 +10,6 @@
 2. Chief-Engineer Layer
    - Builds evidence-constrained routing context.
    - Produces modality priors for table, drawing, and symbol evidence.
-   - Keeps API key and endpoint empty by default.
    - Falls back to deterministic local routing when no key is configured.
 
 3. DPFC and PMCA Fusion Layer
